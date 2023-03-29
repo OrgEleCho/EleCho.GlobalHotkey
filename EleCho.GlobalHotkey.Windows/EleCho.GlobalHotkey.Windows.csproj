@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Title>Windows implementation of EleCho.GlobalHotkey</Title>
+    <Version>1.0.1</Version>
+    <Authors>EleCho</Authors>
+    <Company>EleCho</Company>
+    <Description>Windows implementation of EleCho.GlobalHotkey</Description>
+    <RepositoryUrl>https://github.com/OrgEleCho/EleCho.GlobalHotkey</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>global-hotkey.png</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\global-hotkey.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EleCho.GlobalHotkey.Common" Version="1.0.1" />
+  </ItemGroup>
+
+</Project>
